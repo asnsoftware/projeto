@@ -1,0 +1,505 @@
+
+<html>
+
+<head>
+    <meta name="keywords" content="sistemas">
+    <meta http-equiv="Content-Language" content="pt-br">
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <title>swl</title>
+</head>
+
+<style type="text/css">
+    <!--
+
+    * {
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+
+    }
+    body {
+        background-image: url(../img/ff.png);
+        background-repeat: no-repeat;
+        background-position:center;
+        background-position:top;
+    }
+
+    @charset "UTF-8";
+    @import url('http://fonts.googleapis.com/css?family=Pacifico');
+    h1{
+        font-family: Arial;
+        font-size: 30pt;
+        color: blue;
+        text-shadow: 2px 2px 2px black;
+    }
+
+    body{
+        border-radius: 10px 20px;
+        /*
+        background: url("../img/swl/download%20(2).jpg")no-repeat;
+        background-position: 100px 100px;
+        background-repeat: space;
+         background-color: #999999;*/
+        color: #333333;
+        color: rgba(1,1,1,1);
+    }
+
+    p#p1{
+        color: rgba(00,66,99,0.8);
+        text-align: justify;
+
+
+        /*
+            float: left;
+            color:#006699;
+            text-indent: 50px;
+            letter-spacing: 0px;
+            text-align: justify;}
+        */}
+    p#p2{
+        color: rgba(00,66,99,0.8);
+        text-align: justify;
+
+    }
+    header.cabecalho{text-align: center}
+
+    figure.foto-legenda{
+        left:-42px;
+        position: relative;
+        border: 8px solid #ffffff;
+        box-shadow: 1px 1px 4px black;
+        border-radius: 10px/20px;
+
+    }
+    figure.foto-legenda img{
+        width: 25%;
+        height: 25%;
+        right: 600px;
+        border-radius: 10px 20px 30px 40px;
+
+    }
+    figure.foto-legenda figcaption{
+        /* position: absolute;
+       opacity: 0;
+        color: #ffffff;
+       */
+        -moz-border-radius: 10px 20px 30px 40px;
+        border-radius: 10px 20px;
+        left: 2px;
+        top: 0px;
+        background-color: rgba(0,0,0,0);
+        width: 50%;
+        height: 50%;
+        box-sizing: border-box;
+        transition: opacity 1s ;
+    }
+    /*
+    ao passar o mause
+    figure.foto-legenda:hover figcaption{
+        opacity: 1;
+
+    }
+    */
+
+
+    h3.frase{color: rgba(00,66,99,0.5);
+
+
+        /* usando font externa do site da google
+     font-family: 'Pacifico', cursive;
+
+    */
+    }
+
+
+
+    div.div-principal{
+        border: 8px solid #ffffff;
+        width: 1250px;
+        box-shadow: 1px 1px 4px black;
+        margin: auto auto auto auto ;
+        padding: 10px;
+
+        -moz-border-radius: 10px 20px 30px 40px;
+        border-radius: 10px 20px;
+
+    }
+
+    /*
+    header.cabecalho img#sis {
+
+        position: absolute;
+        left: 800px;
+        top: 70px;
+    }
+    */
+    /* menu*/
+    nav#navmenu a{color: #FF9900}
+
+    nav#navmenu ul{ list-style: none;
+        position: absolute;
+        top: 5px;
+
+        color: #FF9900;
+        right: 850px;
+        left: -22px;
+    }
+    nav#navmenu li{
+        /*alinha na mesma linha*/
+
+        display: inline-block;
+
+        border-radius: 10px 20px 30px 40px;
+        background-color: #003366;
+        padding: 10px;
+        margin: 4px;
+
+        transition: background-color 1s;}
+
+    nav#navmenu li:hover{
+        background-color:#FF9900 ;
+        color: #ffffff;
+        -moz-border-radius: 10px 20px 30px 40px;
+        border-radius: 10px 20px;
+    }
+
+
+    nav#navmenu a:hover{
+
+
+        color: #ffffff;
+    }
+
+
+    nav#navmenu a{
+        text-decoration: none;
+
+    }
+    h1.menuprincipal{display: none;}
+
+    /*
+
+    div.div-principal #div-teste{
+
+        border: 8px solid #ffffff;
+        width: 250px;
+        box-shadow: 1px 1px 4px black;
+        margin: auto auto -50px auto ;
+
+        padding: 50px;
+        margin-top: 1%;
+        margin-right:3%;
+    }
+
+    div.div-principal #div-valores{
+
+        border: 8px solid #ffffff;
+        width: 250px;
+        box-shadow: 1px 1px 4px black;
+        margin: auto auto -50px auto ;
+        padding: 50px;
+        margin-left: 3%;
+        margin-top: -33%;
+
+    /*    left: 800px;
+        padding: 50px;
+    }
+    */
+    h2#quemsomos {
+        box-shadow: 1px 1px 4px #003366;
+        padding: 10px;
+        color: #003366;
+        margin: auto;
+        text-decoration: none;
+        border-radius: 10px 20px;
+
+    }
+
+
+
+    h2#valores{
+
+        border-radius: 10px 20px;
+        box-shadow: 1px 1px 4px #003366;
+        padding: 10px;
+        color: #003366;
+        margin: auto;
+        text-decoration: none;
+    }
+
+
+
+    /*
+    div.div-principal #teste.imgquemsomos{
+        border: 8px solid #ffffff;
+        box-shadow: 1px 1px 4px black;
+        left:150px;
+        width: 2px;
+        margin: auto auto -50px auto ;
+
+    }
+    */
+
+
+    img.imgquemsomos{
+
+        left:150px;
+        width: 2px;
+
+
+    }
+    section#conteudoservico{
+        display: block;
+        width: 300px;
+        float: left;
+
+    }
+
+    section#corpo{
+
+        display: block;
+        width: 300px;
+        float: left;/*
+    border-right: 1px solid #003366;
+padding-right: 500px;
+*/}
+
+    aside#lateral{
+        display: block;
+        width: 500px;
+        float: right;
+    }
+
+    footer#rodape{
+
+        clear: both;
+        color: #003366;
+        text-align: center;
+        border-top: 1px solid #003366;
+    }
+
+
+    #slideshow {
+        margin: 50px auto;
+        position: relative;
+        width: 774px;
+        height:430px;
+        padding: 10px;
+        left: -380px;
+        top: -50px;
+        box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        border-radius: 10px 20px;
+
+    }
+    /*
+    #slideshow > div {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        right: 10px;
+        bottom: 10px;
+
+
+    }
+    */
+    #h301 {
+        margin: 50px auto;
+        position: absolute;
+        width: 250px;
+        height: 100px;
+        padding: 20px;
+        left: 1030px;
+        top: -50px;
+        color: #006699;
+        font-size: 20px;
+    }
+    #h401{
+
+        margin: 50px auto;
+        position: absolute;
+        width: 200px;
+        height: 100px;
+        padding: 20px;
+        left: 1056px;
+        top: -30px;
+
+        color: #FF9900;
+
+
+    }
+
+
+
+
+
+    div#div-quemsomos{
+
+        border-radius: 10px 20px;
+    }
+
+
+
+
+
+
+
+    #imgpaf{ -moz-border-radius: 10px 20px 30px 40px;
+        border-radius: 10px 20px;
+        margin: 50px auto;
+        position: absolute;
+        width: 100px;
+        height:100px;
+        padding: 10px;
+        left: 762px;
+        top: -50px;
+        box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    }
+
+
+
+
+    #imgnfe{
+        -moz-border-radius: 10px 20px 30px 40px;
+        border-radius: 10px 20px;
+        margin: 50px auto;
+        position: absolute;
+        width: 100px;
+        height:100px;
+        padding: 10px;
+        left: 897px;
+        top: -50px;
+        box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    }
+
+
+
+
+    #imgsped{
+        -moz-border-radius: 10px 20px 30px 40px;
+        border-radius: 10px 20px;
+        margin: 50px auto;
+        position: absolute;
+        width: 100px;
+        height:100px;
+        padding: 10px;
+        left: 623px;
+        top: -50px;
+        box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    }
+
+
+
+
+
+
+    #imgnfs{
+        -moz-border-radius: 10px 20px 30px 40px;
+        border-radius: 10px 20px;
+        margin: 50px auto;
+        position: absolute;
+        width: 100px;
+        height:100px;
+        padding: 10px;
+        left: 480px;
+        top: -50px;
+        box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    }
+
+
+
+
+
+
+    #imgnfce{
+        -moz-border-radius: 10px 20px 30px 40px;
+        border-radius: 10px 20px;
+        margin: 50px auto;
+        position: absolute;
+        width: 100px;
+        height:100px;
+        padding: 10px;
+        left: 1030px;
+        top: -50px;
+        box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    }
+
+
+    section#conteudo{
+
+        width: 1000px;
+        margin: auto;
+    }
+    iframe#iframe{
+        border-radius: 10px 20px;
+        height: 430px;
+        width: 770px;
+        border: none;
+        /*
+        negar rologem do mouse*/
+        overflow: hidden;
+    }
+    /* remover barra de rolagem do iframe*/
+    iframe#conteudo::-webkit-scrollbar{display: none}
+
+    img#imghomesolucoesweb{
+
+        margin-top: 1px;
+        border: groove 1px;
+        border-radius: 10px 20px;
+        right: 500px;
+        width: 232px;
+        left: 500px;
+    }
+    img#img{
+
+        margin-top: 1px;
+        border: groove 1px;
+        border-radius: 10px 20px;
+        right: 500px;
+        width: 200px;
+        display: flex;
+
+       button: 1233px;
+        left: 5440px;
+
+        bottom: 4343px;
+    }
+
+
+    aside#isidelateral{
+
+        display: block;
+        width: 1000px;
+        margin: auto;
+    }
+    -->
+</style>
+
+<header class="cabecalho">
+    <h3 id="h301"> <b>SWL SOFTWARE</b></h3>
+    <h4 id="h401">Informatizar é preciso</h4>
+    <h1 class="menuprincipal" >menu principal</h1>
+    <h1 class="menuprincipal" >menu principal</h1>
+    <nav id="navmenu">
+        <ul type="disc">
+            <li >Home</li>
+            <li><a href="servicos.html" target="iframe">
+                Serviços</a></li>
+            <li>Produtos</li>
+            <li><a href="faleconosco.html" target="iframe">fale Conosco</a></li>
+            <li>Suporte</li>
+
+
+
+        </ul>
+
+    </nav>
+
+
+</header>
+   <!-- <img id="img" src="../img/swl/logoswl.png" alt="Imagem não encontrada">
+-->
+</body>
+
+</html>
